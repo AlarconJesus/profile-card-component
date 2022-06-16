@@ -24,6 +24,8 @@ main {
 }
 
 .card {
+    max-height: 430px;
+    height: 100%;
     background: white;
     width: 328px;
     border-radius: 20px;
@@ -71,6 +73,11 @@ main {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+}
+
+.card-footer-social-stats span{
+    font-size: 1.17em;
+    font-weight: bold;
 }
 
 .card-footer-social-stats p {
